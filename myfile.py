@@ -6,7 +6,6 @@ class Hero:
         self.health = health
         self.attack = attack
 
-
     def attack_enemy(self, enemy):
         enemy.health = enemy.health - self.attack
         print(f"{self.name} attacks {enemy.name}!  {enemy.name} has {enemy.health} health")
